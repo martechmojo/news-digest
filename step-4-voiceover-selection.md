@@ -149,7 +149,7 @@ The visual grabs attention. The voiceover delivers the news. They don't need to 
 
 ### Script Structure
 
-**Length:** 15 seconds max
+**Length:** 20 seconds max
 
 **Structure:** Intro → Story → Context → Why it matters
 
@@ -186,13 +186,4 @@ When user picks a script, update the sheet row matching the topic:
 **Script 3**
 ...
 
-### On-screen Captions
-
-[Line 1]
-[Line 2]
-[Line 3]
-[Line 4]
-
----
-
-**After presenting:** Do not ask which script they picked. Just ask: "Ready for Step 5 — visual prompts?"
+**After presenting:** User selects via "save X" (e.g., "save 2"). Do not ask which script they picked. Just ask: "Ready for Step 5 — visual prompts?"

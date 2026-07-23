@@ -12,7 +12,6 @@ Generate 4–5 premium headline options.
 - Reuters meets Netflix — authoritative, clean, never clickbait
 - Must make the viewer feel like they're missing something important if they scroll past
 - No "You Won't Believe," "This Changes Everything," etc.
-- Short enough to fit as an on-screen caption overlay
 
 **Good examples:**
 - "The $4 Gallon — How a War 7,000 Miles Away Hits Your Wallet"
@@ -43,4 +42,4 @@ When user picks a headline, update the sheet row matching the topic:
 
 ---
 
-**After presenting:** Do not ask which headline they picked. Just ask: "Ready for Step 4 — voiceover?"
+**After presenting:** User selects via "save X" (e.g., "save 3"). Do not ask which headline they picked. Just ask: "Ready for Step 4 — voiceover?"

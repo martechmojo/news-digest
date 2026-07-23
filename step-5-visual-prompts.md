@@ -85,11 +85,12 @@ Everything should feel alive.
 
 ---
 
-## Prompt 2 Must Escalate
+## Prompt 1 Sets Up, Prompt 2 Pays Off
+
+Prompt 1 establishes the scene and introduces the central metaphor.
+Prompt 2 escalates, transforms, or reveals the payoff.
 
 Prompt 2 should never repeat Prompt 1.
-
-Instead: Reveal. Transform. Zoom out. Increase the stakes. Show consequences. Introduce a twist. Continue the story naturally.
 
 ---
 
@@ -216,6 +217,7 @@ Always choose the prompt that makes people say "I've never seen the news visuali
 
 - Label each prompt: `Scene: "..."` with a short thematic title.
 - One continuous paragraph per scene. No timestamps, no segment breaks.
+- Each scene is ~10 seconds.
 - Prompt 2 must begin with: `Continue seamlessly from the previous scene.`
 - **No lower-third banners, no headlines, no on-screen text.** The voiceover carries the news.
 - End every prompt with `vertical 9:16, 4K`.
@@ -224,9 +226,9 @@ Always choose the prompt that makes people say "I've never seen the news visuali
 
 ---
 
-## Image Prompt — Thumbnail / Keyframe
+## Image Prompt — Thumbnail
 
-A single frame prompt for the video thumbnail. Can be a locked-off moment from Visual 1 or 2, or a standalone image. No text, no logos.
+A single frame prompt for the video thumbnail. Can be a locked-off moment from Scene 1 or 2, or a standalone image. No text, no logos.
 
 ---
 

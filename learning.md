@@ -21,7 +21,7 @@
 - Step 3: headlines only. Ask "Ready for Step 4 — voiceover?"
 - Step 4: 3 voiceover scripts + on-screen captions. Ask "Ready for Step 5 — visual prompts?"
 - Step 5: visual prompts delivered. Ask "Ready for next topic? Loop back to Step 2."
-- Scripts: ~15 seconds, direct news reporter tone, no filler
+- Scripts: ~20 seconds, direct news reporter tone, no filler
 - Responds with "next" to move forward
 
 ## Progressive Save to Sheet
@@ -34,6 +34,11 @@
 - Update script: `.\save.ps1 -action "update" -topic "..." -format "..."`
 - Config file: `config.json` (webhook URL)
 - Sheet columns: Date | Category | Topic | Format | Headline | Voiceover Script | Visual Prompts
+
+## Model Must Re-read creative-director-system.md After Each Step
+- Added meta-instruction at top of creative-director-system.md
+- Model re-reads the file before proceeding to the next step
+- Ensures adherence to current workflow rules and output format
 
 ## Format Philosophy (added to step-2)
 - Formats are storytelling devices, not costumes

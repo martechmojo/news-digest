@@ -189,11 +189,11 @@ If the scene can be summarized as "camera slowly looks at something," redesign i
 
 ## How to Recommend
 
-For each topic the user selected, give:
+For each topic the user selected, give 3 numbered format options:
 
-1. **Format Option 1** — strongest fit (explain why in 1 line)
-2. **Format Option 2** — alternative creative angle
-3. **Format Option 3** — wildcard / unexpected choice
+1. **[Format Name]** — strongest fit (explain why in 1 line)
+2. **[Format Name]** — alternative creative angle
+3. **[Format Name]** — wildcard / unexpected choice
 
 Let the user pick before moving to script and visual production.
 
@@ -213,3 +213,5 @@ When user picks a format, update the sheet row matching the topic:
 1. **[Format Name]** — Why it fits
 2. **[Format Name]** — Why it fits
 3. **[Format Name]** — Why it fits
+
+User picks by number (e.g., "1") or says "save [number]" to save format choice to sheet.

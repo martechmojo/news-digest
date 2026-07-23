@@ -24,10 +24,10 @@ $body = @{
 try {
   $response = Invoke-RestMethod -Uri $config.webhook_url -Method Post -Body $body -ContentType "application/json"
   if ($response.success) {
-    Write-Host "✓ Saved to sheet" -ForegroundColor Green
+    Write-Host "Saved to sheet" -ForegroundColor Green
   } else {
-    Write-Host "✗ Failed: $($response.error)" -ForegroundColor Red
+    Write-Host "Failed: $($response.error)" -ForegroundColor Red
   }
 } catch {
-  Write-Host "✗ Error: $_" -ForegroundColor Red
+  Write-Host "Error: $_" -ForegroundColor Red
 }
