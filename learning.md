@@ -24,6 +24,17 @@
 - Scripts: ~15 seconds, direct news reporter tone, no filler
 - Responds with "next" to move forward
 
+## Progressive Save to Sheet
+- **Step 1 (topic picked):** Save Date + Category + Topic → new row
+- **Step 2 (format picked):** Update row — add Format
+- **Step 3 (headline picked):** Update row — add Headline
+- **Step 4 (voiceover picked):** Update row — add Voiceover Script
+- **Step 5 (visual prompts):** Update row — add Visual Prompts
+- Save script: `.\save.ps1 -action "save" -topic "..." -category "..."`
+- Update script: `.\save.ps1 -action "update" -topic "..." -format "..."`
+- Config file: `config.json` (webhook URL)
+- Sheet columns: Date | Category | Topic | Format | Headline | Voiceover Script | Visual Prompts
+
 ## Format Philosophy (added to step-2)
 - Formats are storytelling devices, not costumes
 - Transform the story through the format

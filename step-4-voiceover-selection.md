@@ -166,6 +166,13 @@ Think:
 
 ---
 
+## Save to Sheet
+
+When user picks a script, update the sheet row matching the topic:
+`.\save.ps1 -action "update" -topic "[topic]" -voiceover "[chosen script]"`
+
+---
+
 ## Output Format
 
 ### Topic: [Story Title]

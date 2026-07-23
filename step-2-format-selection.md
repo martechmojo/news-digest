@@ -199,6 +199,13 @@ Let the user pick before moving to script and visual production.
 
 ---
 
+## Save to Sheet
+
+When user picks a format, update the sheet row matching the topic:
+`.\save.ps1 -action "update" -topic "[topic]" -format "[chosen format]"`
+
+---
+
 ## Output Format
 
 ### Topic: [Story Title]

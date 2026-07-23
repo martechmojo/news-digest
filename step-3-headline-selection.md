@@ -22,6 +22,13 @@ Generate 4–5 premium headline options.
 
 ---
 
+## Save to Sheet
+
+When user picks a headline, update the sheet row matching the topic:
+`.\save.ps1 -action "update" -topic "[topic]" -headline "[chosen headline]"`
+
+---
+
 ## Output Format
 
 ### Topic: [Story Title]

@@ -240,6 +240,13 @@ A single frame prompt for the video thumbnail. Can be a locked-off moment from V
 
 ---
 
+## Save to Sheet
+
+When visual prompts are delivered, update the sheet row matching the topic:
+`.\save.ps1 -action "update" -topic "[topic]" -visual "[visual prompts]"`
+
+---
+
 ## After Delivery — Loop Back
 
 Once Step 5 prompts are delivered, ask:
