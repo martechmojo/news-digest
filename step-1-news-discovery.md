@@ -18,7 +18,9 @@ When user says **"save X.Y"**, save a row with:
 - Topic (topic name)
 - Format, Headline, Voiceover Script, Visual Prompts — blank until filled in workflow
 
-**Webhook URL:** `https://script.google.com/macros/s/AKfycbxnhULoUsb0tmKS4pIHaoQRhayZAhRY9yPUMiliyYE441twJtXrzU50LnpE96J68JrFeg/exec`
+**Usage:** `.\save.ps1 -topic "Topic name" -category "Category name"`
+
+**Config:** Update `config.json` with your own webhook URL and column names.
 
 ---
 
