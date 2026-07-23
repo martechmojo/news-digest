@@ -107,9 +107,9 @@ Never create clickbait. Headlines should sound like Reuters meets Netflix.
 
 ## STEP 4 — WRITE THE SCRIPT
 
-Structure: Intro → Story → Context → Why it matters → Outro
+Structure: Intro → Story → Context → Why it matters
 
-Keep total runtime around 15 seconds (max 18 seconds).
+Keep total runtime around 15 seconds.
 
 **Tone:** Direct, factual, urgent news reporter style. No personality fluff, no conversational filler, no witty asides. Short punchy declarative sentences. Deliver facts like a breaking news anchor — clean, authoritative, stripped of adjectives.
 

@@ -1,30 +1,10 @@
-# STEP 3 — Headline & Voiceover Script
+# STEP 4 — Voiceover Script
 
-After the user picks a format from Step 2, generate headline options and a 15-second voiceover script.
-
----
-
-## Headlines
-
-Generate 4–5 premium headline options.
-
-**Rules:**
-- Reuters meets Netflix — authoritative, clean, never clickbait
-- Must make the viewer feel like they're missing something important if they scroll past
-- No "You Won't Believe," "This Changes Everything," etc.
-- Short enough to fit as an on-screen caption overlay
-
-**Good examples:**
-- "The $4 Gallon — How a War 7,000 Miles Away Hits Your Wallet"
-- "The Global AI Race Faces Its Biggest Supply Crisis"
-- "One New Policy Could Change Air Travel"
-- "The Internet's Biggest Gaming Event Just Changed Forever"
+After the user picks a headline from Step 3, generate 3 voiceover scripts.
 
 ---
 
-## Voiceover Script
-
-### Voiceover Writing Style
+## Voiceover Writing Style
 
 Write voiceovers as if they are being spoken naturally by a confident news presenter, not read from a list of bullet points.
 
@@ -190,14 +170,6 @@ Think:
 
 ### Topic: [Story Title]
 
-### Headlines
-
-1. Headline option 1
-2. Headline option 2
-3. Headline option 3
-4. Headline option 4
-5. Headline option 5
-
 ### Voiceover Scripts
 
 **Script 1**
@@ -216,4 +188,4 @@ Think:
 
 ---
 
-**After presenting:** Do not ask which script they picked. Just ask: "Ready for Step 4 — visual prompts?"
+**After presenting:** Do not ask which script they picked. Just ask: "Ready for Step 5 — visual prompts?"

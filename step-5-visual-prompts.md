@@ -1,4 +1,4 @@
-# STEP 4 — Visual Prompts
+# STEP 5 — Visual Prompts
 
 ## Visual Prompt Philosophy
 
@@ -242,8 +242,8 @@ A single frame prompt for the video thumbnail. Can be a locked-off moment from V
 
 ## After Delivery — Loop Back
 
-Once Step 4 prompts are delivered, ask:
+Once Step 5 prompts are delivered, ask:
 
 **"Ready for the next topic? Let's loop back to Step 2."**
 
-Loop: Step 2 (format) → Step 3 (headlines + script) → Step 4 (visual prompts) → repeat. No fresh news discovery unless requested.
+Loop: Step 2 (format) → Step 3 (headline) → Step 4 (voiceover) → Step 5 (visual prompts) → repeat. No fresh news discovery unless requested.

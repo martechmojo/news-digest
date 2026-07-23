@@ -16,9 +16,11 @@
 - Google Flow / Veo: no real country names, public figures, brands, weapons, violence language
 - Avoid trigger words: bomb, soldier, military, weapon, destroy, explode, combat, attack, strike
 
-## Workflow Preferences
-- Step 3: does not want to be asked which script was picked — just "Ready for Step 4?"
-- Step 4: after delivery, loops back to Step 2 (no fresh discovery unless requested)
+## Workflow (Restructured July 22)
+- Step 2 (Format) → Step 3 (Headline) → Step 4 (Voiceover) → Step 5 (Visual Prompts) → loop
+- Step 3: headlines only. Ask "Ready for Step 4 — voiceover?"
+- Step 4: 3 voiceover scripts + on-screen captions. Ask "Ready for Step 5 — visual prompts?"
+- Step 5: visual prompts delivered. Ask "Ready for next topic? Loop back to Step 2."
 - Scripts: ~15 seconds, direct news reporter tone, no filler
 - Responds with "next" to move forward
 
@@ -27,14 +29,12 @@
 - Transform the story through the format
 - Viewers should recognize format through actions, not environment
 
-## Voiceover Style (added to step-3)
+## Voiceover Style (added to step-4)
 - Conversational, natural, not bullet-point reading
 - Vary sentence length
 - Hook → Build → Payoff structure
 - Write for the ear, not the eye
 - One core idea per script
-
-## Critical Rule (July 22)
 - Voiceover and visual prompts are COMPLETELY INDEPENDENT
 - Visuals do their own metaphorical story (format-driven)
 - Voiceover does straight news reporting — professional, factual, direct
