@@ -20,7 +20,7 @@ When user says **"save X.Y"**, save a row with:
 
 **Usage:** `.\save.ps1 -topic "Topic name" -category "Category name"`
 
-**Config:** Update `config.json` with your own webhook URL and column names.
+**Config:** `config.json` contains the sheet webhook — no changes needed. All users share the same sheet.
 
 ---
 
