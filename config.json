@@ -1,4 +1,4 @@
 {
-  "webhook_url": "https://script.google.com/macros/s/AKfycbw_9zpT8QoH8tuN8Qn8xcS3lvk7XXDPNJBmO3Y2rwGspiAW5oFegYG3BNewEQJCk5jipA/exec",
+  "webhook_url": "https://script.google.com/macros/s/AKfycbypPKZsTJhgx_8Ro2w7YPPlm2ymHxFHJeO3wkpM5-C-avKZGd_jGi1qcq1H--FEdTo7qQ/exec",
   "columns": ["Date", "Category", "Topic", "Format", "Headline", "Voiceover Script", "Visual Prompts"]
 }
