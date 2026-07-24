@@ -1,6 +1,12 @@
 # STEP 5 — Visual Prompts
 
-*Loaded by news-digest-brain.md. Do not read this file directly — the brain routes here after a voiceover is picked in Step 4.*
+| | |
+|---|---|
+| **Route** | Brain routes here after a voiceover is picked in Step 4 and user says "next". |
+| **Behavior** | Create 2 visual prompt scenes (10 seconds each) + 1 thumbnail prompt. Follow Visual Prompt Philosophy below. Present and wait for feedback. |
+| **Save** | Only on explicit "save". Run `.\save.ps1 -action "update" -topic "..." -visual "..."`. Then wait for "next". |
+| **Error** | If save fails, log the prompts in your response and continue. User may request changes before saving. |
+| **State** | After saving, output [STATE] block per news-digest-brain.md. |
 
 
 

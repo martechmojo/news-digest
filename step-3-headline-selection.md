@@ -1,6 +1,12 @@
 # STEP 3 — Headline Selection
 
-*Loaded by news-digest-brain.md. Do not read this file directly — the brain routes here after a format is picked in Step 2.*
+| | |
+|---|---|
+| **Route** | Brain routes here after a format is picked in Step 2 and user says "next". |
+| **Behavior** | Generate 4-5 premium headline options. Present numbered. Wait for user to pick. |
+| **Save** | On "save X", run `.\save.ps1 -action "update" -topic "..." -headline "..."`. Then wait for "next". |
+| **Error** | If save fails, log the chosen headline in your response and continue. |
+| **State** | After saving, output [STATE] block per news-digest-brain.md. |
 
 
 

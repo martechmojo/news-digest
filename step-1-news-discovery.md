@@ -1,6 +1,12 @@
 # STEP 1 — News Discovery
 
-*Loaded by news-digest-brain.md. Do not read this file directly — the brain routes here when the user asks for news.*
+| | |
+|---|---|
+| **Route** | Brain routes here when user says "give me news for today" or similar. |
+| **Behavior** | Search web for today's top stories across 7 categories. Present 3 per category, mark one as (Recommended). Wait for user to pick. |
+| **Save** | On "save X.Y", run `.\save.ps1 -topic "..." -category "..."` to create a new row. Then wait for "next". |
+| **Error** | If web search fails, ask user to paste today's top stories. If save fails, log data in your response and continue. |
+| **State** | After saving, output [STATE] block per news-digest-brain.md. |
 
 
 

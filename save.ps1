@@ -19,15 +19,17 @@ $body = @{
   headline = $headline
   voiceover = $voiceover
   visual = $visual
-} | ConvertTo-Json
+}
+
+$payload = $body | ConvertTo-Json
 
 try {
-  $response = Invoke-RestMethod -Uri $config.webhook_url -Method Post -Body $body -ContentType "application/json"
+  $response = Invoke-RestMethod -Uri $config.webhook_url -Method Post -Body $payload -ContentType "application/json"
   if ($response.success) {
-    Write-Host "Saved to sheet" -ForegroundColor Green
+    Write-Host "SAVE OK | action=$action topic=$topic category=$category format=$format headline=$headline" -ForegroundColor Green
   } else {
-    Write-Host "Failed: $($response.error)" -ForegroundColor Red
+    Write-Host "SAVE FAILED | error=$($response.error) action=$action topic=$topic" -ForegroundColor Red
   }
 } catch {
-  Write-Host "Error: $_" -ForegroundColor Red
+  Write-Host "SAVE ERROR | exception=$_ action=$action topic=$topic" -ForegroundColor Red
 }

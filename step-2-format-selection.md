@@ -1,6 +1,12 @@
 # STEP 2 — Format Selection
 
-*Loaded by news-digest-brain.md. Do not read this file directly — the brain routes here after a topic is picked in Step 1.*
+| | |
+|---|---|
+| **Route** | Brain routes here after a topic is picked in Step 1 and user says "next". |
+| **Behavior** | Recommend 3 numbered format options from the Format Library. Explain why each fits. Wait for user to pick. |
+| **Save** | On "save X", run `.\save.ps1 -action "update" -topic "..." -format "..."`. Then wait for "next". |
+| **Error** | If save fails, log the chosen format in your response and continue. |
+| **State** | After saving, output [STATE] block per news-digest-brain.md. |
 
 
 

@@ -1,6 +1,12 @@
 # STEP 4 — Voiceover Script
 
-*Loaded by news-digest-brain.md. Do not read this file directly — the brain routes here after a headline is picked in Step 3.*
+| | |
+|---|---|
+| **Route** | Brain routes here after a headline is picked in Step 3 and user says "next". |
+| **Behavior** | Generate 3 voiceover scripts in news anchor tone (~20 seconds each). Present numbered. Wait for user to pick. |
+| **Save** | On "save X", run `.\save.ps1 -action "update" -topic "..." -voiceover "..."`. Then wait for "next". |
+| **Error** | If save fails, log the chosen script in your response and continue. |
+| **State** | After saving, output [STATE] block per news-digest-brain.md. |
 
 After the user picks a headline from Step 3, generate 3 voiceover scripts.
 
