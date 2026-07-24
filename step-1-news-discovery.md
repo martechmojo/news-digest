@@ -1,5 +1,9 @@
 # STEP 1 — News Discovery
 
+*Loaded by news-digest-brain.md. Do not read this file directly — the brain routes here when the user asks for news.*
+
+
+
 Before creating any content, search the web for today's top stories across 7 categories.
 
 For each category, return the top 3 topics. Mark one as **(Recommended)** — the most important, interesting, or visually compelling story in that category.
@@ -86,5 +90,6 @@ The single most important story across all categories today. This is the lead �
 
 ---
 
-After presenting, wait for the user to pick topics before moving to Step 2.
+After presenting, wait for the user to pick topics.
 User can say "save X.Y" to save to sheet, or just the number to select for workflow.
+After saving, wait for the user to say "next" before loading Step 2.

@@ -14,15 +14,17 @@
 
 ## Safety Constraints
 - Google Flow / Veo: no real country names, public figures, brands, weapons, violence language
-- Avoid trigger words: bomb, soldier, military, weapon, destroy, explode, combat, attack, strike
+- Trigger words to avoid: fight, attack, strike, bomb, missile, soldier, military, war, weapon, blood, destroy, explode, combat
 
-## Workflow (Restructured July 22)
-- Step 2 (Format) → Step 3 (Headline) → Step 4 (Voiceover) → Step 5 (Visual Prompts) → loop
-- Step 3: headlines only. Ask "Ready for Step 4 — voiceover?"
-- Step 4: 3 voiceover scripts + on-screen captions. Ask "Ready for Step 5 — visual prompts?"
-- Step 5: visual prompts delivered. Ask "Ready for next topic? Loop back to Step 2."
-- Scripts: ~20 seconds, direct news reporter tone, no filler
-- Responds with "next" to move forward
+## Workflow
+- Step 1 (News Discovery) → Step 2 (Format) → Step 3 (Headline) → Step 4 (Voiceover) → Step 5 (Visual Prompts) → loop back to Step 2
+- Step 1: search web, present topics across 7 categories, user picks
+- Step 2: recommend 3 format options, user picks
+- Step 3: 4-5 headline options, user picks
+- Step 4: 3 voiceover scripts, user picks
+- Step 5: 2 visual prompts + thumbnail, delivered. Ask "Ready for next topic?"
+- Scripts: ~20 seconds, direct news anchor tone, no filler, no contractions
+- Commands: "next" to advance, "back" to revise, "status" for current state, "reset" for fresh start, "help" for all commands
 
 ## Progressive Save to Sheet
 - **Step 1 (topic picked):** Save Date + Category + Topic → new row
@@ -35,24 +37,24 @@
 - Config file: `config.json` (webhook URL)
 - Sheet columns: Date | Category | Topic | Format | Headline | Voiceover Script | Visual Prompts
 
-## Model Must Re-read creative-director-system.md After Each Step
-- Added meta-instruction at top of creative-director-system.md
+## Model Must Re-read news-digest-brain.md After Each Step
+- Meta-instruction at top of news-digest-brain.md
 - Model re-reads the file before proceeding to the next step
-- Ensures adherence to current workflow rules and output format
+- Ensures adherence to current workflow rules, command routing, and output format
 
 ## Format Philosophy (added to step-2)
 - Formats are storytelling devices, not costumes
 - Transform the story through the format
 - Viewers should recognize format through actions, not environment
 
-## Voiceover Style (added to step-4)
-- Conversational, natural, not bullet-point reading
-- Vary sentence length
+## Voiceover Style (updated — news anchor tone)
+- Direct, factual, news anchor delivery
+- No contractions (use "it is" not "it's", "they are" not "they're")
+- No conversational filler or witty asides
 - Hook → Build → Payoff structure
-- Write for the ear, not the eye
 - One core idea per script
 - Voiceover and visual prompts are COMPLETELY INDEPENDENT
 - Visuals do their own metaphorical story (format-driven)
-- Voiceover does straight news reporting — professional, factual, direct
+- Voiceover does straight news reporting — professional, factual, authoritative
 - No format storytelling in the script (e.g., don't write "board meeting" language in the script just because the format is Board Meeting)
 - Script should sound like a news anchor delivering the facts, not a narrator inside the visual world

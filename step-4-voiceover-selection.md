@@ -1,27 +1,20 @@
 # STEP 4 — Voiceover Script
 
+*Loaded by news-digest-brain.md. Do not read this file directly — the brain routes here after a headline is picked in Step 3.*
+
 After the user picks a headline from Step 3, generate 3 voiceover scripts.
 
 ---
 
 ## Voiceover Writing Style
 
-Write voiceovers as if they are being spoken naturally by a confident news presenter, not read from a list of bullet points.
-
-Prioritize rhythm, flow and conversational pacing.
+Write like a breaking news anchor delivering urgent news — authoritative, clean, stripped of adjectives. No conversational filler, no witty asides, no contractions.
 
 ---
 
 ### Vary Sentence Length
 
-Avoid making every sentence short.
-
-Mix:
-- short punchy statements
-- medium explanatory sentences
-- occasional longer flowing sentences
-
-This creates a natural cadence and keeps the audience engaged.
+Mix short punchy statements with medium explanatory sentences and occasional longer flowing sentences.
 
 **Bad:**
 > The judge speaks. Nobody listens. The lawyers argue. The room erupts.
@@ -33,11 +26,7 @@ This creates a natural cadence and keeps the audience engaged.
 
 ### Let Ideas Flow
 
-Each sentence should naturally lead into the next.
-
-Avoid abrupt stops after every thought.
-
-Use transitions naturally:
+Each sentence should naturally lead into the next. Use transitions like:
 - but
 - meanwhile
 - instead
@@ -45,47 +34,32 @@ Use transitions naturally:
 - so
 - however
 - as a result
-- even then
-- by the end
 
-The script should feel like one continuous story rather than disconnected statements.
+The script should feel like one continuous story, not disconnected statements.
 
 ---
 
-### Write for the Ear, Not the Eye
+### Write for Broadcast
 
-Read every script aloud while writing it.
+Read every script aloud while writing it. It must sound natural when spoken — but natural in the way an evening news anchor sounds, not a casual conversation.
 
-If it sounds robotic or overly punctuated, rewrite it.
-
-Prefer contractions where appropriate:
-- it's
-- they're
-- that's
-- hasn't
-- doesn't
-
-Avoid overly formal newsreader language unless intentionally stylistic.
+Do not use contractions. Write: "it is" not "it's", "they are" not "they're", "that is" not "that's", "has not" not "hasn't", "does not" not "doesn't".
 
 ---
 
 ### Build Momentum
 
-Every script should gradually increase in energy or tension.
-
-Instead of presenting unrelated facts one after another, connect them into a narrative.
+Every script should increase in energy or tension. Connect facts into a narrative, not a list.
 
 **Beginning:** Introduce the situation.
 **Middle:** Explain the conflict or development.
 **End:** Deliver the outcome, impact or key takeaway.
 
-The final sentence should feel like a conclusion rather than simply stopping.
+The final sentence should feel like a conclusion, not just a stop.
 
 ---
 
 ### Avoid Bullet Point Narration
-
-Do not write scripts as sequences of isolated observations.
 
 **Bad:**
 > Oil rises. Markets react. Investors worry. Prices climb.
@@ -95,35 +69,23 @@ Do not write scripts as sequences of isolated observations.
 
 ---
 
-### Sound Like a Human Storyteller
+### Sound Like a News Anchor
 
-Imagine you're explaining today's biggest news to a friend in under a minute.
+Deliver the facts like a professional broadcaster. You are not a friend explaining news over coffee. You are a trusted authority delivering what matters.
 
-Be informative, concise and conversational.
-
-The goal is to sound effortless, not scripted.
+Authoritative. Concise. No filler.
 
 ---
 
 ### Pacing
 
-Leave natural pauses for emphasis, not after every sentence.
-
-Aim for flowing paragraphs that contain a mix of short and long beats.
-
-A listener should be able to follow the story comfortably without feeling rushed or overwhelmed.
+Short and urgent. Vary sentence length but keep the overall rhythm tight. Every word earns its place.
 
 ---
 
 ### One Core Idea Per Script
 
-Each script should revolve around one central narrative.
-
-Avoid trying to mention every detail if it hurts the flow.
-
-If a fact doesn't strengthen the story, leave it out.
-
-Clarity is more valuable than completeness.
+Each script revolves around one central narrative. If a fact does not strengthen the story, leave it out. Clarity is more valuable than completeness.
 
 ---
 
@@ -141,7 +103,7 @@ Do not write the voiceover inside the format's narrative world.
 > Welcome to the most dangerous board meeting on Earth. The US CEO just introduced a new motion...
 
 **Better (straight news reporter):**
-> President Trump has announced a new policy in the Iran conflict. Any attack on a US ship will be met with the destruction of an Iranian bridge or power plant.
+> The administration has announced a major policy shift in the ongoing Middle East conflict. Any attack on a US vessel will now be met with a direct response against critical infrastructure.
 
 The visual grabs attention. The voiceover delivers the news. They don't need to match.
 
@@ -186,4 +148,4 @@ When user picks a script, update the sheet row matching the topic:
 **Script 3**
 ...
 
-**After presenting:** User selects via "save X" (e.g., "save 2"). Do not ask which script they picked. Just ask: "Ready for Step 5 — visual prompts?"
+**After presenting:** User selects via "save X" (e.g., "save 2"). Do not ask which script they picked. After saving, wait for the user to say "next" before loading Step 5.

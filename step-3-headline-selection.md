@@ -1,5 +1,9 @@
 # STEP 3 — Headline Selection
 
+*Loaded by news-digest-brain.md. Do not read this file directly — the brain routes here after a format is picked in Step 2.*
+
+
+
 After the user picks a format from Step 2, generate headline options.
 
 ---
@@ -42,4 +46,4 @@ When user picks a headline, update the sheet row matching the topic:
 
 ---
 
-**After presenting:** User selects via "save X" (e.g., "save 3"). Do not ask which headline they picked. Just ask: "Ready for Step 4 — voiceover?"
+**After presenting:** User selects via "save X" (e.g., "save 3"). Do not ask which headline they picked. After saving, wait for the user to say "next" before loading Step 4.

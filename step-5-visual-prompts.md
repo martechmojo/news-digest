@@ -1,5 +1,9 @@
 # STEP 5 — Visual Prompts
 
+*Loaded by news-digest-brain.md. Do not read this file directly — the brain routes here after a voiceover is picked in Step 4.*
+
+
+
 ## Visual Prompt Philosophy
 
 **Your job is NOT to illustrate the news literally.**
@@ -220,9 +224,9 @@ Always choose the prompt that makes people say "I've never seen the news visuali
 - Each scene is ~10 seconds.
 - Prompt 2 must begin with: `Continue seamlessly from the previous scene.`
 - **No lower-third banners, no headlines, no on-screen text.** The voiceover carries the news.
-- End every prompt with `vertical 9:16, 4K`.
-- No ending quality tags beyond the format and resolution.
-- Close with safety tags: `no text, no logos`.
+- End every prompt with format tag: `vertical 9:16, 4K`.
+- Close with safety tag: `no text, no logos`.
+- No other ending quality tags (no "cinematic", "beautiful lighting", etc. — those belong in the prompt body).
 
 ---
 
@@ -244,7 +248,9 @@ A single frame prompt for the video thumbnail. Can be a locked-off moment from S
 
 ## Save to Sheet
 
-When visual prompts are delivered, update the sheet row matching the topic:
+Do not save automatically. Wait for the user to say "save" before updating the sheet. The user may want different visual prompts first.
+
+When the user says "save", update the sheet row matching the topic:
 `.\save.ps1 -action "update" -topic "[topic]" -visual "[visual prompts]"`
 
 ---
@@ -253,6 +259,8 @@ When visual prompts are delivered, update the sheet row matching the topic:
 
 Once Step 5 prompts are delivered, ask:
 
-**"Ready for the next topic? Let's loop back to Step 2."**
+**"Does this work for you? Say 'save' to save and move on, or tell me what you would like changed."**
+
+Do not save until the user explicitly says "save". After saving, wait for the user to say "next" before looping back to Step 2.
 
 Loop: Step 2 (format) → Step 3 (headline) → Step 4 (voiceover) → Step 5 (visual prompts) → repeat. No fresh news discovery unless requested.

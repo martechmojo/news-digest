@@ -1,5 +1,9 @@
 # STEP 2 — Format Selection
 
+*Loaded by news-digest-brain.md. Do not read this file directly — the brain routes here after a topic is picked in Step 1.*
+
+
+
 After the user picks topics from Step 1, recommend the best 3 format options for each selected topic.
 
 The user picks one format per topic, then moves to creative production.
@@ -215,3 +219,4 @@ When user picks a format, update the sheet row matching the topic:
 3. **[Format Name]** — Why it fits
 
 User picks by number (e.g., "1") or says "save [number]" to save format choice to sheet.
+After saving, wait for the user to say "next" before loading Step 3.
